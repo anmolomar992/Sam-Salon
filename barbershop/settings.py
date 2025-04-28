@@ -27,7 +27,9 @@ ALLOWED_HOSTS = ['*', 'localhost', '127.0.0.1', '.replit.app', '.replit.dev',
 # CSRF settings - Ensure Replit and Render domains are trusted
 CSRF_TRUSTED_ORIGINS = [
     'https://*.onrender.com',
-    'https://aa595309-1dc9-46d1-bba2-ddc6b916a4b0-00-3n7f2o282walg.picard.replit.dev'
+    'https://aa595309-1dc9-46d1-bba2-ddc6b916a4b0-00-3n7f2o282walg.picard.replit.dev',
+    "https://web-production-d99b.up.railway.app"
+
 ]
 
 # Application definition
