@@ -4,7 +4,6 @@ import requests
 from django.conf import settings
 
 class SupabaseClient:
-    """A client for interacting with Supabase API."""
     
     def __init__(self, url=None, key=None, secret_key=None):
         """Initialize the Supabase client with API credentials."""

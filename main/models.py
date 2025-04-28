@@ -1,7 +1,5 @@
 from django.db import models
 
-# Since we're using Supabase, we don't need Django ORM models for database access.
-# However, we'll create model classes to represent our tables for type hints and validation.
 
 class User:
     """Represents a user from the users table."""
@@ -21,7 +19,7 @@ class ServiceCategory:
         self.id = id
         self.name = name
         self.description = description
-
+    
 class Service:
     """Represents a service from the services table."""
     def __init__(self, id=None, name=None, description=None, category_id=None, 

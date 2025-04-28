@@ -26,8 +26,6 @@ ALLOWED_HOSTS = ['*', 'localhost', '127.0.0.1', '.replit.app', '.replit.dev',
 
 # CSRF settings - Ensure Replit and Render domains are trusted
 CSRF_TRUSTED_ORIGINS = [
-    'https://*.replit.dev',
-    'https://*.replit.app',
     'https://*.onrender.com',
     'https://aa595309-1dc9-46d1-bba2-ddc6b916a4b0-00-3n7f2o282walg.picard.replit.dev'
 ]
@@ -85,9 +83,9 @@ DATABASES = {
 }
 
 # Supabase configuration
-SUPABASE_URL = os.getenv('SUPABASE_URL', 'https://phuhhrqzzqdfheuhqofi.supabase.co')
-SUPABASE_KEY = os.getenv('SUPABASE_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBodWhocnF6enFkZmhldWhxb2ZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI3NTAyMjEsImV4cCI6MjA1ODMyNjIyMX0.b4KLx3W1wliVO6fgHMaJIqN6vA9F5BMiUFqdD1tmsHo')
-SUPABASE_SECRET_KEY = os.getenv('SUPABASE_SECRET_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBodWhocnF6enFkZmhldWhxb2ZpIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0Mjc1MDIyMSwiZXhwIjoyMDU4MzI2MjIxfQ.HBoktk6j1cBqXbuT1wOwUDRsCAwMTDKyXC_qxs7n474')
+SUPABASE_URL = os.getenv('SUPABASE_URL', 'https://xdhpzqivzuxslhgznjlb.supabase.co')
+SUPABASE_KEY = os.getenv('SUPABASE_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhkaHB6cWl2enV4c2xoZ3puamxiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU4NDU1MTgsImV4cCI6MjA2MTQyMTUxOH0.gMv8m9T2ZNUBMr2Py3rkb_MH_2oFpd80P6wW8c8KWAA')
+SUPABASE_SECRET_KEY = os.getenv('SUPABASE_SECRET_KEY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhkaHB6cWl2enV4c2xoZ3puamxiIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0NTg0NTUxOCwiZXhwIjoyMDYxNDIxNTE4fQ.ntk2fryPWTGDww_-fnRO_SEvj8zMOsP-u-K0tF2803s')
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
